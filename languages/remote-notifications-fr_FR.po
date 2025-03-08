@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Remote Dashboard Notifications\n"
+"POT-Creation-Date: 2015-04-21 15:54+0700\n"
+"PO-Revision-Date: 2015-04-21 15:54+0700\n"
+"Last-Translator: Julien Liabeuf <julien@liabeuf.fr>\n"
+"Language-Team: ThemeAvenue <support@themeavenue.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../includes/archive-notification.php:16
+msgid "Sorry, you are not allowed to access this page"
+msgstr ""
+
+#: ../includes/archive-notification.php:25
+msgid "Unable to find channel information."
+msgstr "Impossible de trouver les informations du canal."
+
+#: ../includes/archive-notification.php:38
+msgid "The payload was not properly encoded in base64."
+msgstr ""
+
+#: ../includes/archive-notification.php:51
+msgid "The payload is not in a correct JSON format."
+msgstr ""
+
+#: ../includes/archive-notification.php:59
+msgid "All required variable were not provided."
+msgstr "Toutes les variables nécessaires n'ont pas été renseignées."
+
+#: ../includes/archive-notification.php:77
+msgid "No channels."
+msgstr "Pas de canaux."
+
+#: ../includes/archive-notification.php:87
+msgid "Key hasn't been set for this channel."
+msgstr "Pas de clé paramétrée pour ce canal."
+
+#: ../includes/archive-notification.php:96
+msgid "The key you provided for this channel is incorrect."
+msgstr "La clé que vous avez fournie pour ce canal est incorrecte."
+
+#: ../includes/archive-notification.php:161
+msgid "nothing"
+msgstr ""
+
+#: ../includes/class-rdn-admin.php:126
+#: ../includes/class-rdn-admin.php:148
+msgid "Channel Key"
+msgstr "Clé du canal"
+
+#: ../includes/class-rdn-admin.php:129
+msgid ""
+"An error occured during key generation. Please delete this channel and "
+"recreate it."
+msgstr ""
+
+#: ../includes/class-rdn-admin.php:139
+msgid "Channel ID"
+msgstr "ID du canal"
+
+#: ../includes/class-rdn-admin.php:162
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../includes/class-rdn-admin.php:183
+#: ../includes/class-rdn-admin.php:184
+msgid "Notice Style"
+msgstr "Style de la notification"
+
+#: ../includes/class-rdn-admin.php:186
+msgid "WordPress Style"
+msgstr ""
+
+#: ../includes/class-rdn-admin.php:187
+msgid "Updated"
+msgstr ""
+
+#: ../includes/class-rdn-admin.php:188
+msgid "Error"
+msgstr ""
+
+#: ../includes/class-rdn-admin.php:190
+msgid "Custom Style"
+msgstr ""
+
+#: ../includes/class-rdn-admin.php:191
+msgid "Success"
+msgstr "Succès"
+
+#: ../includes/class-rdn-admin.php:192
+msgid "Info"
+msgstr ""
+
+#: ../includes/class-rdn-admin.php:193
+msgid "Warning"
+msgstr "Avertissement"
+
+#: ../includes/class-rdn-admin.php:194
+msgid "Danger"
+msgstr ""
+
+#: ../includes/class-rdn.php:307
+msgctxt "post type general name"
+msgid "Notification"
+msgstr "Notification"
+
+#: ../includes/class-rdn.php:308
+msgctxt "post type singular name"
+msgid "Notification"
+msgstr "Notification"
+
+#: ../includes/class-rdn.php:309
+msgid "Add New"
+msgstr "Ajouter"
+
+#: ../includes/class-rdn.php:310
+msgid "Add New Notification"
+msgstr "Nouvelle notification"
+
+#: ../includes/class-rdn.php:311
+msgid "Edit Notification"
+msgstr "Editer la notification"
+
+#: ../includes/class-rdn.php:312
+msgid "New Notification"
+msgstr "Nouvelle notification"
+
+#: ../includes/class-rdn.php:313
+msgid "All Notifications"
+msgstr "Toutes les notifications"
+
+#: ../includes/class-rdn.php:314
+msgid "View Notification"
+msgstr "Voir la notification"
+
+#: ../includes/class-rdn.php:315
+msgid "Search Notifications"
+msgstr "Chercher une notification"
+
+#: ../includes/class-rdn.php:316
+msgid "No Notification found"
+msgstr "Pas de notification trouvée"
+
+#: ../includes/class-rdn.php:317
+msgid "No Notification found in Trash"
+msgstr "Pas de notification dans la corbeille"
+
+#: ../includes/class-rdn.php:320
+msgid "Notifications"
+msgstr "Notifications"
+
+#: ../includes/class-rdn.php:354
+msgid "Custom field updated."
+msgstr "Custom field mis à jour."
+
+#: ../includes/class-rdn.php:355
+msgid "Custom field deleted."
+msgstr "Custom field supprimé."
+
+#. translators: Publish box date format, see http://php.net/date
+#: ../includes/class-rdn.php:364
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../includes/class-rdn.php:379
+msgctxt "taxonomy general name"
+msgid "Channels"
+msgstr "Canaux"
+
+#: ../includes/class-rdn.php:380
+msgctxt "taxonomy singular name"
+msgid "Channel"
+msgstr "Canal"
+
+#: ../includes/class-rdn.php:381
+msgid "Search Channels"
+msgstr "Rechercher un canal"
+
+#: ../includes/class-rdn.php:382
+msgid "All Channels"
+msgstr "Tous les canaux"
+
+#: ../includes/class-rdn.php:383
+msgid "Parent Channel"
+msgstr "Canal parent"
+
+#: ../includes/class-rdn.php:384
+msgid "Parent Channel:"
+msgstr "Canal parent:"
+
+#: ../includes/class-rdn.php:385
+msgid "Edit Channel"
+msgstr "Éditer le canal"
+
+#: ../includes/class-rdn.php:386
+msgid "Update Channel"
+msgstr "Mettre à jour le canal"
+
+#: ../includes/class-rdn.php:387
+msgid "Add New Channel"
+msgstr "Ajouter un nouveau canal"
+
+#: ../includes/class-rdn.php:388
+msgid "New Channel Name"
+msgstr "Nom du nouveau canal"
+
+#: ../includes/class-rdn.php:389
+msgid "Channels"
+msgstr "Canaux"
+
+#: ../includes/class-rdn.php:416
+msgctxt "taxonomy general name"
+msgid "Post Types Limitation"
+msgstr "Limitation par type de post"
+
+#: ../includes/class-rdn.php:417
+msgctxt "taxonomy singular name"
+msgid "Post Type"
+msgstr "Type de post"
+
+#: ../includes/class-rdn.php:418
+msgid "Search Post Types"
+msgstr "Chercher un type de post"
+
+#: ../includes/class-rdn.php:419
+msgid "All Post Types"
+msgstr "Tous les types de post"
+
+#: ../includes/class-rdn.php:420
+msgid "Parent Post Type"
+msgstr "Type de post parent"
+
+#: ../includes/class-rdn.php:421
+msgid "Parent Post Type:"
+msgstr "Type de post parent :"
+
+#: ../includes/class-rdn.php:422
+msgid "Edit Post Type"
+msgstr "Editer le type de post"
+
+#: ../includes/class-rdn.php:423
+msgid "Update Post Type"
+msgstr "Mettre à jour le type de post"
+
+#: ../includes/class-rdn.php:424
+msgid "Add New Post Type"
+msgstr "Ajouter un type de post"
+
+#: ../includes/class-rdn.php:425
+msgid "New Post Type Name"
+msgstr "Nouveau type de post"
+
+#: ../includes/class-rdn.php:426
+msgid "Post Types"
+msgstr "Types de post"
+
+#: ../includes/class-remote-notification-client.php:272
+msgid "Dismiss notification"
+msgstr "Fermer la notification"
+
+#: ../includes/class-remote-notification-client.php:274
+msgid "Dismiss"
+msgstr "Fermer"
+
+#~ msgid "Add New %s"
+#~ msgstr "Nouveau %s"
+
+#~ msgid "Edit %s"
+#~ msgstr "Éditer %s"
+
+#~ msgid "New %s"
+#~ msgstr "Nouvelle %s"
+
+#~ msgid "All %s"
+#~ msgstr "Toutes les %s"
+
+#~ msgid "View %s"
+#~ msgstr "Voir la %s"
+
+#~ msgid "Search %s"
+#~ msgstr "Rechercher une %s"
+
+#~ msgid "No %s found"
+#~ msgstr "Pas de %s trouvé"
+
+#~ msgid "No %s found in Trash"
+#~ msgstr "Pas de %s dans la corbeille"
+
+#~ msgid "No "
+#~ msgstr "Non"
